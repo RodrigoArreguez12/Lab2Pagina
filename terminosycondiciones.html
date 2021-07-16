@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Arreguez">
+    <meta name="generator" content="Jekyll v3.8.6">
+    <title>Inicio | UBP Inmobiliaria</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.4/examples/carousel/">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- Favicons -->
+    <link rel="icon" href="imagenes/imagen4.png">
+
+    <meta name="msapplication-config"
+        content="https://getbootstrap.com//docs/4.4/assets/img/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#563d7c">
+
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="https://getbootstrap.com/docs/4.4/examples/carousel/carousel.css" rel="stylesheet">
+    <script data-dapp-detection="">
+        (function () {
+            let alreadyInsertedMetaTag = false
+
+            function __insertDappDetected() {
+                if (!alreadyInsertedMetaTag) {
+                    const meta = document.createElement('meta')
+                    meta.name = 'dapp-detected'
+                    document.head.appendChild(meta)
+                    alreadyInsertedMetaTag = true
+                }
+            }
+
+            if (window.hasOwnProperty('web3')) {
+                // Note a closure can't be used for this var because some sites like
+                // www.wnyc.org do a second script execution via eval for some reason.
+                window.__disableDappDetectionInsertion = true
+                // Likely oldWeb3 is undefined and it has a property only because
+                // we defined it. Some sites like wnyc.org are evaling all scripts
+                // that exist again, so this is protection against multiple calls.
+                if (window.web3 === undefined) {
+                    return
+                }
+                __insertDappDetected()
+            } else {
+                var oldWeb3 = window.web3
+                Object.defineProperty(window, 'web3', {
+                    configurable: true,
+                    set: function (val) {
+                        if (!window.__disableDappDetectionInsertion)
+                            __insertDappDetected()
+                        oldWeb3 = val
+                    },
+                    get: function () {
+                        if (!window.__disableDappDetectionInsertion)
+                            __insertDappDetected()
+                        return oldWeb3
+                    }
+                })
+            }
+        })()</script>
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <a class="navbar-brand" href="index.html">Inmobiliaria UBP</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <!--<a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>-->
+                    </li>
+                    <li class="nav-item">
+                        <!--<a class="nav-link" href="contacto.html">Contacto</a>-->
+                    </li>
+                    <li class="nav-item">
+                       <!-- <a class="nav-link" href="">Cotizar</a>-->
+                    </li>
+                </ul>
+                <p><a class="btn btn-sm btn-primary" href="admin/login.php" role="button">Iniciar Sesi&oacuten</a></p>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <br>
+        <!-- FOOTER -->
+       <!-- <footer class="container">
+            <p class="float-right"><a href="#">Volver al principio</a></p>
+            <p>2021 Arreguez Company, Inc. <a href="privacidad.html">Privacidad</a> <a href="#">Terminos y condiciones</a>
+            </p>
+        </footer>-->
+        
+        <div class="alert alert-primary" role="alert">
+    <p>
+        Este contrato describe los términos y condiciones generales (en adelante
+        , los "Términos y Condiciones Generales") 
+        aplicables al uso de los servicios ofrecidos por Inmobiliaria UBP, dentro del sitio www.g2.develnet.net
+         (en adelante, el "Sitio"). Inmobiliaria UBP de
+        C.V. y el Sitio serán referidos en el Sitio y en estos Términos y
+        Condiciones Generales, indistintamente, como UBP Inmobiliaria.
+        Cualquier persona que desee acceder y/o usar el sitio o los servicios
+        podrá hacerlo sujetándose a los Términos y Condiciones Generales, junto
+        con todas las demás políticas y principios que rigen UBP Inmobiliaria
+        y que son incorporados al presente por referencia.
+    </p>
+    <br>
+    <p>
+        CUALQUIER PERSONA QUE NO ACEPTE ESTOS TÉRMINOS Y CONDICIONES GENERALES
+        LOS CUALES TIENEN UN CARÁCTER OBLIGATORIO Y VINCULANTE,
+        DEBERÁ ABSTENERSE DE UTILIZAR EL SITIO Y/O LOS SERVICIOS.
+    </p>
+    <br>
+    <p>
+        El Usuario debe leer, entender y aceptar todas las condiciones
+        establecidas en los Términos y Condiciones Generales y en la Política de
+        Privacidad y Confidencialidad de la Información, así como en los demás
+        documentos incorporados a los mismos por referencia, previo a su
+        inscripción como Usuario de UBP Inmobiliaria.
+    </p>
+    <p>
+        Las viviendas en alquiler solamente se podran solicitar de 1 a 12 meses
+        ya que cada 12 meses se debe renovar la reserva.
+        En caso de querer recibir informacion exacta de la direccion de la vivienda solicitada
+        comunicarse por el contacto por via WhatsApp.
+    </p>
+
+        <h4 class="blue-title">1. Alcance de los servicios</h4>
+    <p>
+        Los presentes servicios nacen para dar respuesta a la creciente
+        necesidad de incorporar herramientas de venta y tecnología en la gestión
+        de ventas inmobiliarias, ofreciendo así un software de apoyo para la
+        gestión de ventas de usuarios profesionales (en adelante, el “Software”
+        o los “Servicios”).
+
+        Conoce más sobre las Condiciones de Uso del Software.
+
+        Se deja en claro que UBP Inmobiliaria no está relacionado, directa o
+        indirectamente, con ninguna empresa desarrolladora o constructora,
+        corredora de propiedades, banco, grupo económico o institución gremial
+        que pudiera generar ciertas restricciones al contenido o producir
+        distorsiones en la objetividad de su presentación.
+    </p>
+    
+        <h4 class="blue-title">2. Relacion con la informacion de oferta publicada</h4>
+    <p>
+        UBP Inmobiliaria no ofrece las propiedades publicadas, no es
+        propietario, no participa de modo alguno en el negocio de arriendo o
+        venta de las propiedades y no recibe comisión por las transacciones
+        efectuadas, ya sea que el Oferente sea un particular o una corredora de
+        propiedades.
+
+        En el caso de los proyectos, UBP Inmobiliaria no es propietario de
+        estos, no interviene en el diseño, construcción, gestión comercial o de
+        cualquier otra forma que lo vincule más allá de ser un medio de
+        publicación en Internet. La información publicada es de exclusiva
+        responsabilidad de las empresas que la exponen a través de los servicios
+        ofrecidos por UBP Inmobiliaria.
+
+        UBP Inmobiliaria no asume obligación alguna de almacenar los datos,
+        contenidos e imágenes de ofertas publicadas en el sitio y que han sido
+        retiradas.
+    </p>
+    <br>
+    
+    <h4 class="blue-title">3. Niveles de interaccion con UBP Inmobiliaria</h4>
+    <br>
+    <h4 class="blue-title">3.1. Clasificacion </h4>
+    <p>
+        Existen distintos niveles de vinculación con UBP Inmobiliaria, desde
+        el más elemental al más complejo.
+    </p>
+    <br>
+    
+     <h4 class="blue-title">3.1.1. Visitantes </h4>
+        <p>
+        Es todo aquel usuario que accede a una o más páginas de información
+        publicada en UBP Inmobiliaria, no exigiéndose su identificación ni
+        registración para dicho acceso (en adelante, “Visitante”). No obstante,
+        la sola navegación por el sitio sujeta a este visitante a ciertas
+        restricciones y condiciones que se analizan e informan en mayor detalle
+        más adelante.
+     </p>
+     
+     <h4 class="blue-title">3.1.2. Usuario Registrado </h4>
+        Es aquel Visitante que incorpora sus datos en un formulario de registro
+        para acceder a servicios, que por su naturaleza, requieren de la
+        identificación y registración previa antes señalada (en adelante,
+        “Usuario Registrado”).
+    <p>
+        
+     </p>
+        <h4 class="blue-title">3.1.3. Usuario Oferente </h4>
+         <p>
+        Es aquel Usuario Registrado que hace uso de UBP Inmobiliaria para
+        ofrecer una propiedad bajo la modalidad venta, renta o renta temporal
+        (en adelante, “Usuario Oferente” o el “Oferente”)
+     </p>
+        <h4 class="blue-title">3.1.3. Usuario Cliente </h4>
+         <p>
+        Es aquel Usuario Registrado, sea o no sea un Usuario Oferente, que pague
+        algún servicio de esta categoría, ya sea que lo haga como persona
+        natural, o bien, en representación de alguna persona jurídica (en
+        adelante, “Usuario Cliente” o “Cliente”).
+        <br>
+        Los alcances, limitaciones y condiciones que serán analizados a
+        continuación para los servicios de un nivel de interacción más elemental
+        se entiende que forman parte de los alcances, limitaciones y condiciones
+        del nivel que le sucede en complejidad.
+     </p>
+     
+        <h4 class="blue-title">4. Condiciones Generales de los servicios de apoyo para la gestión de ventas de Inmuebles </h4>
+        
+     <p> 
+        Los Servicios sólo están disponibles para personas que tengan capacidad
+        legal para contratar. No podrán utilizar los servicios las personas que
+        no tengan esa capacidad, los menores de edad o Usuarios de UBP
+        Inmobiliaria que hayan sido suspendidos temporalmente o inhabilitados
+        definitivamente. Si estás inscribiendo un Usuario como Empresa, debes
+        tener capacidad para contratar a nombre de tal entidad y de obligar a la
+        misma en los términos de este Acuerdo.
+<br>
+        UBP Inmobiliaria no es responsable ni se encuentra obligada a
+        verificar la exactitud, veracidad o confiabilidad de la información que
+        sea incorporada por los Usuarios en el Sitio Web de UBP Inmobiliaria
+        o sitios web que comparten información con UBP Inmobiliaria. UBP
+        Inmobiliaria no se hará responsable ni garantizará la seguridad de
+        cualquier información incluyendo pero no limitando tarjetas de crédito y
+        cualquier otra información personal que sea proporcionada por el
+        visitante, usuario registrado, oferente y/o cliente al Portal o sitios
+        web que comparten información con UBP Inmobiliaria.
+<br>
+        Los Visitantes, Usuarios Registrados, Oferentes y Clientes renuncian y
+        acuerdan en liberar de toda responsabilidad, así como de iniciar
+        cualquier acción legal en contra de UBP Inmobiliaria derivados de
+        cualquier controversia que surja entre ellos y UBP Inmobiliaria o
+        sitios web incluidos en UBP Inmobiliaria.
+<br>
+        Los Visitantes, Usuarios Registrados, Oferentes y Clientes se obligan a
+        cumplir con las leyes federales, estatales o municipales que le sean
+        aplicables como así también con las presentes Políticas y cualquier otro
+        documento vinculado a UBP Inmobiliaria, incluyendo pero no limitando,
+        a los Términos y Condiciones Generales de Uso de UBP Inmobiliaria.
+<br>
+        Los Visitantes, Usuarios Registrados, Oferentes y Clientes se
+        comprometen a sacar en paz y a salvo a UBP Inmobiliaria, sus
+        directores, empleados, accionistas, subsidiarias, afiliadas, agentes y
+        licenciantes de cualquier daño que pudiera sufrir UBP Inmobiliaria,
+        por el uso incorrecto de los servicios o por el incumplimiento de
+        cualquiera de las Políticas aquí descritas. Asimismo, los Visitantes,
+        Usuarios Registrados, Oferentes y Clientes convienen en reembolsar a
+        UBP Inmobiliaria cualquier gasto o erogación que haya realizado por
+        dichos conceptos, incluyendo gastos y/u honorarios de abogados.
+<br>
+        Las presentes Políticas se regirán e interpretarán de acuerdo con las
+        leyes de la República Argentina. Para la interpretación y el cumplimiento
+        de las presentes, las partes se someten a la competencia de los juzgados
+        del fuero común en el Distrito Federal, renunciando desde este momento a
+        cualquier otro fuero que les pudiera corresponderles de acuerdo a sus
+        domicilios presente o futuro.
+     </p>
+     <br>
+     <h4 class="blue-title">5. Modificación del Acuerdo</h4>
+     <p>
+         UBP Inmobiliaria no está obligado, más allá de la publicación en el
+         sitio, de informar y/o comunicar en forma directa los cambios en sus
+         servicios cada vez que éstos se produzcan, sean éstos modificaciones,
+         adiciones o sustracciones a ellos. Igualmente, UBP Inmobiliaria
+         tampoco está obligado a informar en caso de incorporación de nuevos
+         servicios o eliminación de alguno existente. No obstante, UBP
+         Inmobiliaria hará los esfuerzos necesarios para que la información que
+         se entregue sea la más actualizada posible.
+         </p>
+         <br>
+     <h4 class="blue-title">6. Privacidad de la Información</h4>
+      <p>
+          Para utilizar los Servicios ofrecidos por UBP Inmobiliaria, los
+          Usuarios deberán facilitar determinados datos de carácter personal. Su
+          información personal se procesa y almacena en servidores o medios
+          magnéticos que mantienen altos estándares de seguridad y protección
+          tanto física como tecnológica. Para mayor información sobre la
+          privacidad de los Datos Personales y casos en los que será revelada la
+          información personal, se pueden consultar nuestras Políticas de
+          Privacidad.
+         </p>
+         <br>
+     <h4 class="blue-title">7. Derechos Reservados</h4>
+      <p>
+          La información publicada a instancia de herramientas de UBP
+          Inmobiliaria, no puede ser utilizada total o parcialmente por un
+          visitante, usuario registrado, oferente o cliente en otros sitios
+          mediante enlaces no convenidos o por cualquier otro medio, sin la
+          autorización previa de UBP Inmobiliaria.
+<br>
+          El material gráfico en que haya habido incorporación de diseño o
+          modificaciones por parte de UBP Inmobiliaria, sólo podrá ser usado
+          en dicho sitio, salvo autorización expresa de UBP Inmobiliaria.
+<br>
+          UBP Inmobiliaria, así como sus softwares están registrados como
+          marca y protegidos bajo derechos de autor, prohibiéndose su uso no
+          autorizado, y su reproducción total o parcial por cualquier medio.
+         </p>
+     <h4 class="blue-title">8. Alcances, limitaciones y condiciones de servicios para los Usuarios Visitantes</h4>
+     <p>
+         Los servicios para los Usuarios Visitantes constituyen en el servicio
+         de presentación de información de oferta de propiedades nuevas y usada
+         , constituidos por páginas de libre acceso.
+         </p>
+     <h4 class="blue-title">8.1. Alcances del servicio</h4>
+      <p>
+          UBP Inmobiliaria no es propietaria ni tiene injerencia alguna en la
+          comercialización de las propiedades publicadas en el Sitio Web. UBP
+          Inmobiliaria no conoce las propiedades ni atributos, características u
+          otras condiciones más allá de lo que se publica en el sitio, por tanto
+          no es parte del servicio ofrecido la verificación de los datos
+          publicados por los Oferentes. Acción que, por lo demás, sería
+          prácticamente imposible dada la cantidad de propiedades, la naturaleza
+          de la información y el dinamismo de las publicaciones y
+          actualizaciones.
+<br>
+          Siendo así, UBP Inmobiliaria no garantiza la calidad del servicio
+          ofrecido por quienes venden o rentan su propiedad, ni se constituye en
+          garante de los compromisos de una o ambas partes. Tampoco asume
+          responsabilidad alguna por la calidad de las propiedades, ni por los
+          perjuicios o daños que pudieran significar para alguna persona los
+          defectos y características de su diseño o construcción. Asimismo
+          UBP Inmobiliaria no asume responsabilidad alguna ante la eventual
+          inconveniencia o perjuicio económico o moral que pudiera ocasionarle
+          un negocio finiquitado, en curso o fallido, generado a partir de una
+          propiedad u otro producto publicado en el sitio.
+         </p>
+         <br>
+     <h4 class="blue-title">8.2. Nivel de confiabilidad de la información presentada</h4>
+     
+     <br>
+      <h4 class="blue-title">8.2.1 Respecto de los datos</h4>
+      <p>
+          UBP Inmobiliaria ha invertido considerables recursos en el
+          desarrollo de un sitio que cumpla con los mejores estándares de
+          calidad en presentación, velocidad de respuesta y seguridad. Asimismo,
+          ha desarrollado modernas herramientas que permiten el constante
+          monitoreo y detección de errores en la información publicada, y para
+          aquellos casos en que no es posible la detección automatizada, ha
+          desarrollado una exhaustiva pauta de revisión y atención de clientes,
+          aminorando al máximo las falencias en la información publicada. La
+          revisión y actualización de la información, de modo que esta sea
+          altamente confiable, es una preocupación constante y primordial para
+          UBP Inmobiliaria.
+<br>
+          No obstante, este importante propósito nos resulta imposible
+          garantizar la total ausencia de errores u omisiones en la información
+          presentada, producto de que la responsabilidad final de los datos
+          publicados es del Usuario Oferente. Estos, en su gran mayoría, ponen
+          un especial cuidado en la información que publican. Sin embargo, el
+          gran número de ellos, y en muchos casos, el gran número de propiedades
+          que maneja cada vendedor, hace imposible asegurar que no se produzcan
+          errores, desactualizaciones, impresiones o simplemente datos no
+          acordes a la realidad.
+<br>
+          En relación con lo indicado en el punto anterior, UBP Inmobiliaria
+          no garantiza que la información publicada por terceros en el sitio
+          esté enteramente libre de errores, que no presente datos engañosos o
+          abiertamente falsos, ni desactualizados, ni datos discordantes con los
+          entregados en el punto de venta, en especial en lo relativo a precios
+          (“desde” “hasta”) y superficies, en el caso de las propiedades.
+          </p>
+          <br>
+          <h4 class="blue-title">8.2.2 Respecto de las imágenes</h4>
+          <p>
+              Las imágenes publicadas son proporcionadas por los Oferentes, por
+              esta razón, UBP Inmobiliaria no garantiza que las imágenes
+              publicadas asociadas a las propiedades sean representativas de
+              ellos, estén libres de retoques que distorsionen la realidad o
+              cuando corresponda, cuenten con los derechos que autorizan su
+              publicación. UBP Inmobiliaria no asume responsabilidad alguna
+              frente a terceros en el evento que la publicación de las imágenes
+              en UBP Inmobiliaria no sea representativa de las propiedades o
+              no cuenten con la autorización correspondiente.
+              </p>
+              <br>
+        <h4 class="blue-title">8.2.3 Respecto de la descripción y atributos de una publicación</h4>
+        <p>
+            UBP Inmobiliaria no garantiza que los textos descriptivos de las
+            propiedades o desarrollos sean estrictamente fieles a la realidad,
+            incluyan atributos inexistentes, estén libres de omisiones,
+            exageraciones o imprecisiones deliberadas, hechas con el fin de
+            generar un interés mayor en el destinatario.
+              </p>
+          <br>
+        <h4 class="blue-title">8.2.4 Respecto de las promociones</h4>
+        <p>
+            Salvo que se establezca expresamente lo contrario, UBP
+            Inmobiliaria no organiza ni tiene injerencia alguna en las
+            promociones ofrecidas a través de su página web. Estas han sido
+            desarrolladas y organizadas exclusivamente por los Oferentes, siendo
+            su responsabilidad exclusiva dar cumplimiento a los términos
+            promocionales. Asimismo, UBP Inmobiliaria no garantiza que
+            eventos publicados como promociones representen condiciones más
+            favorables que las habituales para ese proyecto, o propiedad.
+            Tampoco garantiza su cumplimiento por parte de la empresa o
+            particular Oferente. UBP Inmobiliaria no se hace responsable en
+            caso que la empresa respectiva se rehusare al cumplimiento de lo
+            ofrecido en la promoción.
+              </p>
+          <br>
+        <h4 class="blue-title">8.2.5 Respecto de la ubicación</h4>
+        <p>
+            UBP Inmobiliaria no garantiza, que la ubicación otorgada por el
+            Oferente corresponda exactamente a la realidad. Igualmente, en caso
+            de existir un plano aportado por el Oferente no se garantiza, que al
+            ser de referencia, no distorsione distancias, de modo de favorecer
+            una mejor valorización de la localización.
+              </p>
+          <br>
+        <h4 class="blue-title">8.2.6  Respecto de la disponibilidad</h4>
+        <p>
+            UBP Inmobiliaria no garantiza que las propiedades publicadas como
+            disponibles lo estén en la realidad.
+              </p>
+          <br>
+        <h4 class="blue-title">8.2.7 Respecto de las condiciones de financiamiento</h4>
+        <p>
+            UBP Inmobiliaria no garantiza que la información relativa al
+            financiamiento de la propiedad que pudiese publicitar el Oferente,
+            esté debidamente vigente al momento de ser recibida por el Visitante
+            .
+              </p>
+          <br>
+        <h4 class="blue-title">8.2.8  Respecto de la actualización de la información.</h4>
+        <p>
+            Aun cuando UBP Inmobiliaria, según se indica en el punto 7.2.1,
+            compromete los mejores esfuerzos en mejorar los estándares de
+            actualización, y la información haya sido expuesta por parte del
+            Oferente con especial celo de representar la realidad, no puede
+            garantizarse que dicha información esté enteramente actualizada.
+              </p>
+          
+</div>
+       
+        
+    </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
